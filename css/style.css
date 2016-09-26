@@ -1,0 +1,124 @@
+
+/*==========================================================
+                       GENERAL
+==========================================================*/
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height:8000px;
+}
+/*==========================================================
+                       HEADER
+==========================================================*/
+
+
+
+#header {
+  background: rgba(255, 250, 250, 0.5);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.3);
+  position:sticky;
+  padding:10px;
+  height:80px;
+  width:100%;
+}
+
+#logos{
+  width:150px;
+  margin:0px 40px 0px;
+  display:block;
+}
+
+
+/*******************************
+NAVBAR
+*******************************/
+
+.navbar{
+  background-color: spink;
+  width:100%;
+  position:fixed;
+}
+
+header li{
+  float:right;
+  display:inline-block;
+  margin-right: 30px;
+}
+
+header a {
+  color:black;
+  font-size: 25px;
+}
+
+
+
+/*==========================================================
+                       FOOTER
+==========================================================*/
+
+#footer{
+  background-color: white;
+  box-shadow: 0 5px 20px -8px white;
+  width:100%;
+  height:auto;
+  position:absolute;
+  bottom:0;
+}
+
+#black_footer{
+  background: #212121;
+  box-shadow: 0 -5px 40px -5px #333;
+}
+
+.partenaires {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/*LOGO SIMPLON BAS*/
+
+footer figure img{
+  margin:0 0 0 -50px;
+}
+
+#logosbot{
+  margin:auto;
+  width:250px;
+}
+
+
+/*RAISEAUX SOCIAUX*/
+footer ul{
+  text-align: center;
+}
+
+footer li{
+  display: inline-block;
+  padding:10px;
+}
+
+footer li i{
+  color:white;
+}
+
+
+/*MENTION LEGAL*/
+footer nav{
+  text-align: center;
+}
+
+footer nav a {
+  color:white;
+  margin: 0 20px 20px 20px;
+  font-size: 20px;
+}
