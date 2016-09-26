@@ -1,0 +1,81 @@
+@media only screen and (min-width: 750px) {
+
+  #backgound_simplon{
+    width:750px;
+    margin:0 auto;
+  }
+
+  .Je_m_informe{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_candidate{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_m_informe button{
+    bottom:0;
+  }
+
+  .Je_candidate button{
+    bottom:0;
+  }
+
+
+/*FOOTER*/
+
+
+  .container_bottom{
+    display:flex;
+    flex-wrap: wrap;
+    width:850px;
+    margin:auto;
+  }
+
+  #logos_bottom {
+    margin:auto;
+  }
+
+  .reseaux_sociaux{
+    border-left: 3px solid white;
+    right:0;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1080px) {
+
+  #backgound_simplon{
+    width:950px;
+    margin:0 auto;
+  }
+
+  .Je_m_informe{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_candidate{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_m_informe button{
+    bottom:0;
+  }
+
+  .Je_candidate button{
+    bottom:0;
+  }
+
+
+
+}
