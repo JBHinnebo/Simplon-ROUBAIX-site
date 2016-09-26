@@ -8,7 +8,7 @@ body{
 }
 
 h3{
-  font-size: 25px;
+  font-size: 28px;
 }
 
 h4{
@@ -116,7 +116,6 @@ header a {
   box-shadow: 0 5px 20px -8px white;
   width:100%;
   height:auto;
-  bottom:0;
 }
 
 #black_footer{
@@ -182,6 +181,7 @@ footer nav a {
   display:flex;
   flex-wrap: wrap;
   margin:0 auto;
+  margin-top: 50px;
 }
 
 
@@ -196,6 +196,7 @@ video {
   display:flex;
   flex-wrap: wrap;
   margin:0 auto;
+  margin-top: 50px;
 }
 
 

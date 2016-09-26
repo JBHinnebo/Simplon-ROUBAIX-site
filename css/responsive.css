@@ -26,6 +26,22 @@
   }
 
 
+  .etapes_candidatures{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .etape_1{
+    width:45%;
+    margin:0 2.5%;
+  }
+
+  .etape_2{
+    width:45%;
+    margin:0 2.5%;
+  }
+
+
 /*FOOTER*/
 
 
@@ -51,7 +67,7 @@
 
 @media only screen and (min-width: 1080px) {
 
-  #backgound_simplon{
+  #background_simplon{
     width:950px;
     margin:0 auto;
   }
