@@ -3,6 +3,9 @@
                        GENERAL
 ==========================================================*/
 
+body{
+  font-size: 18px;
+}
 
 ul {
   list-style: none;
@@ -12,9 +15,37 @@ a {
   text-decoration: none;
 }
 
-body {
-  height:8000px;
+/*bar de séparation*/
+
+.ligne_de_separation{
+  width:100%;
+  height:50px;
+  margin:40px;
+  text-align: center;
+  background-color: white;
 }
+
+.carre_orange{
+  width:20px;
+  height:20px;
+  background-color: orange;
+  display:inline-block;
+  margin: 0 10px;
+}
+
+.carre_vert{
+  width:20px;
+  height:20px;
+  background-color: green;
+  display:inline-block;
+  margin: 0 10px;
+}
+
+#backgound_simplon{
+  width:90%;
+  margin:auto;
+}
+
 /*==========================================================
                        HEADER
 ==========================================================*/
@@ -121,4 +152,39 @@ footer nav a {
   color:white;
   margin: 0 20px 20px 20px;
   font-size: 20px;
+}
+
+
+
+/*==========================================================
+                       INDEX
+==========================================================*/
+.video_introduction{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+}
+
+
+video {
+  display:block;
+  width:100%;
+  background: #414141;
+  margin:10px auto;
+}
+
+.Information_introduction button {
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  border:3px;
+  border-radius:10px;
+  background-color: rgb(255, 50, 80);
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+  padding:20px 30px;
+  margin:5px auto;
+
+}
+.Information_introduction button:hover {
+
 }
