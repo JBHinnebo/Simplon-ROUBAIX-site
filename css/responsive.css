@@ -60,6 +60,11 @@
     border-left: 3px solid white;
   }
 
+/*Accueil*/
+
+.Information_introduction article{
+  height:450px;
+}
 
 }
 
