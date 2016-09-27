@@ -116,6 +116,7 @@ header a {
   box-shadow: 0 5px 20px -8px white;
   width:100%;
   height:auto;
+  margin-top: 70px;
 }
 
 #black_footer{
@@ -189,7 +190,8 @@ video {
   display:block;
   width:100%;
   background: #414141;
-  margin:10px auto;
+  margin:40px auto;
+  box-shadow: 5px 5px 5px 2px rgba(50, 50, 50, 0.5);
 }
 
 .Information_introduction{
@@ -200,18 +202,29 @@ video {
 }
 
 
-.Information_introduction button {
+.Information_introduction a {
   font-size: 20px;
   font-weight: bold;
   color:white;
   border:3px;
   border-radius:10px;
-  background-color: rgb(255, 50, 80);
+  background-color: #ff167a;
   box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
   padding:17px 25px;
-  bottom:0;
+}
 
+.Information_introduction article{
+  height:450px;
+  margin-bottom: 40px;
+  position:relative;
+}
+
+.Je_candidate :nth-child(4){
+  position:absolute;
+  bottom:0;
 }
 
 .Je_m_informe :nth-child(4){
+  position:absolute;
+  bottom:0;
 }
