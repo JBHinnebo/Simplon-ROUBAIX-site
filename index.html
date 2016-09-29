@@ -9,9 +9,14 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -19,8 +24,252 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
+
+
+
+
+<!--=====================================
+==================HEADER=================
+======================================-->
+
+    <header id="header">
+
+        <figure class="logos-150px">
+            <img src="img/Logo-Roubaix-gray-150px.png" alt="Simplon-ROUBAIX logos">
+        </figure>
+
+        <figure class="logos-300px">
+            <img src="img/Logo-Roubaix-gray-300px.png" alt="Simplon-ROUBAIX logos">
+        </figure>
+
+
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="adep.html">ADEP</a>
+                </li>
+                <li>
+                    <a href="cursus.html">Cursus</a>
+                </li>
+                <li>
+                    <a href="index.html" id="page_selected">Accueil</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+
+
+    </header>
+
+
+
+<!--=====================================
+==================MAIN===================
+======================================-->
+
+
+
+    <section id="background_simplon">
+
+        <figure>
+            <img src="" alt="équipe de Simplon-ROUBAIX">
+        </figure>
+<!-- ===========vidéo d'introduction section========== -->
+        <section class="video_introduction">
+
+            <article class="video_introduction_text_1">
+
+                <h3>Ce qu'est Simplon</h3>
+
+                <p>Simplon.co est un réseau de fabriques sociales du numérique qui propose des formations intensives pour apprendre à créer des sites web et des applications mobile, et en faire son métier. Les formations Simplon.co sont soit gratuites et qualifiantes, soit rémunérées et certifiantes , et bien sûr ouvertes à tous, pourvu que la motivation soit au rendez-vous !</p>
+
+            </article>
+
+<!-- vidéo d'introduction -->
+            <video controls>
+                <source src="videos/Simplon.co-SD.mp4" type="video/mp4" >
+                <!-- n'oublie pas de convertir la vidéo en ogg -->
+            </video>
+
+
+            <article class="video_introduction_text_2">
+
+                <p>L’ADEP, la Ville de Roubaix et Simplon.co lancent une nouvelle formation de “développeur Web - mobile” à destination des populations des quartiers populaires de Roubaix.<br>
+                   La formation est entièrement gratuite. Elle se déroule de manière intensive et immersive, en six mois, avec une pédagogie innovante fondée à 80% sur le “learning by doing” (pratique par projets), le “peer-programming” (programmation par les pairs, en binôme), les projets, et sur la mise en situation de formation.<br>
+                   Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :
+                   <br>• économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne.
+                   <br>• social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.
+               </p>
+
+            </article>
+
+
+
+<!-- ligne de séparation -->
+
+        </section>
+
+
+        <div class="ligne_de_separation">
+
+            <div class="carre_orange"></div>
+
+            <div class="carre_vert"></div>
+
+        </div>
+
+
+        <!-- ===========Information? Inscription?========== -->
+
+            <h3 class="candidatures_titre">Candidature pour Simplon Roubaix</h3>
+
+
+                <section class="Information_introduction">
+
+
+
+                    <article class="Je_m_informe">
+                        <h4>La formation Simplon.co,c'est quoi?</h4>
+                        <p>Une formation intensive de 6 mois pour apprendre à créer des sites Web, des applications Web et en faire son métier.<br></br>
+                        Une formation gratuite et ouvertes à tous, pourvu que la motivation soit au rendez vous.</p>
+                        <p>Avant de candidater:</p>
+
+                        <p><a href="http://simplon.co/les-formations-longues/developpeur/">Je m'informe</a></p>
+
+                    </article>
+
+
+
+
+                    <article class="Je_candidate">
+
+                        <h4>Ca m'interresse! Comment candidater?</h4>
+                        <p>Une sélection ouverte à tous, basée sur la motivation, l'autonomie et l'envis d'apprendre le développement web en équipeen trois étapes que vous pouvez commencer dès maintenant, même si vous n'avez jamais pratiqué.</p>
+                        <p>Maintenant:</p>
+
+                        <p><a href="http://simplon.co/je-candidate/">Je candidate</a></p>
+
+                    </article>
+
+
+                </section>
+
+
+
+
+                <article class="inscriptions">
+                    <p><i>Les inscriptions pour cette formation sont ouvertes prioritairement aux habitants du Roubaisis éloignés de l’emploi, mais toutes les candidatures motivées seront les bienvenues. La candidature se déroulera en deux étapes :</i></p>
+                </article>
+                <section class="etapes_candidatures">
+                    <article class="etape_1">
+                        <h5>Étape 1 : Candidature en ligne</h5>
+
+                        <p>Ouverture le 7 septembre 2015. <br>
+                        Profitez de ces quelques jours pour vous entrainer et passer des badges sur le site www.codecademy</p>
+                    </article>
+
+                    <article class="etape_2">
+                        <h5>Étape 2 : Entretiens de sélection</h5>
+
+                        <p>Si votre candidature est retenue, vous serez convoqué à un entretien de sélection qui se déroulera début Octobre.</p>
+                    </article>
+                </section>
+
+
+
+                <!-- ligne de séparation -->
+                    <div class="ligne_de_separation">
+
+                        <div class="carre_orange"></div>
+
+                        <div class="carre_vert"></div>
+
+                    </div>
+
+                </section>
+
+
+    </section>
+
+
+
+<!--=====================================
+==================FOOTER=================
+======================================-->
+
+
+    <footer id="footer">
+
+        <div class="partenaires">
+            <figure>
+                <img src="img/partenaire/fse.png" alt="" width="150px">
+            </figure>
+            <figure>
+                <img src="img/partenaire/logo-ADEP.jpg" alt="" width="150px">
+            </figure>
+            <figure>
+                <img src="img/partenaire/ville-roubaix.png" alt="" width="150px">
+            </figure>
+            <figure>
+                <img src="img/partenaire/conseilgeneral.png" alt="" width="150px">
+            </figure>
+            <figure>
+                <img src="img/partenaire/ovh.png" alt="" width="150px">
+            </figure>
+
+            <figure>
+                <img src="img/partenaire/unioneuropeenne.png" alt="" width="150px">
+            </figure>
+        </div>
+        <section id="black_footer">
+            <figure class="container_bottom">
+                <figure id="logosbot">
+                    <img src="img/Logo-Roubaix-white.png" alt="" width="390px">
+                </figure>
+                <ul>
+                    <li>
+                        <a href=""><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </figure>
+
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="">Mention Légales</a>
+                    </li>
+
+                    <li>
+                        <a href="">Média</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+    </footer>
+
+
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

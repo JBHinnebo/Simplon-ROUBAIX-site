@@ -1,0 +1,309 @@
+
+/*==========================================================
+                       GENERAL
+==========================================================*/
+
+body{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff167a;
+  margin-bottom: 50px;
+}
+
+h4{
+  font-size: 27px;
+}
+
+
+h5{
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*bar de séparation*/
+
+.ligne_de_separation{
+  width:100%;
+  height:80px;
+  margin:40px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.carre_orange{
+  width:20px;
+  height:20px;
+  background-color: #ffbf00;
+  display:inline-block;
+  margin: 30px 10px 0;
+}
+
+.carre_vert{
+  width:20px;
+  height:20px;
+  background-color: #009c3a;
+  display:inline-block;
+  margin: 30px 10px 0;
+}
+
+#backgound_simplon{
+  width:100%;
+  margin:auto auto 150px;
+  padding:150px 0 0;
+  background-color: #fafafa;
+  background-position: center;
+}
+
+/*==========================================================
+                       HEADER
+==========================================================*/
+
+
+
+#header {
+  background: rgba(255, 250, 250, 1);
+  box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.3);
+  position:fixed;
+  padding:10px;
+  width:100%;
+  z-index: 100;
+  top:0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logos-150px{
+  width:150px;
+  margin:0px auto 0px;
+  display:none;
+}
+
+.logos-300px{
+  width:300px;
+  margin:0px auto 0px;
+  display:block;
+}
+
+
+/*******************************
+NAVBAR
+*******************************/
+
+.navbar{
+  display:block;
+  margin:auto;
+}
+
+header li{
+  float:right;
+  display:inline-block;
+  margin-right: 30px;
+}
+
+.navbar a {
+  color:black;
+  font-size: 25px;
+  animation:couleur_simplon_decroissante;
+  animation-duration: 0.3s;
+  border:none;
+}
+@keyframes couleur_simplon_decroissante{
+  from {
+          color: #ff167a;
+      }
+      to {
+          color: #000;
+          border:none;
+        }
+}
+
+.navbar a:hover{
+  color:#ff167a;
+  animation-name: couleur_simplon_rose;
+  animation-duration: 0.3s;
+}
+@keyframes couleur_simplon_rose{
+  from {
+          color: #000;
+          border:none;
+      }
+      to {
+          color: #ff167a;
+        }
+}
+
+/*==========================================================
+                       FOOTER
+==========================================================*/
+
+#footer{
+  background-color: white;
+  box-shadow: 0 5px 20px -8px white;
+  width:100%;
+  height:auto;
+  margin-top: 70px;
+}
+
+#black_footer{
+  background: #212121;
+  box-shadow: 0 -5px 40px -5px #333;
+  padding:10px;
+}
+
+.partenaires {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/*LOGO SIMPLON BAS*/
+
+footer figure img{
+  margin:0 0 0 -50px;
+}
+
+#logosbot{
+  margin:auto;
+  width:250px;
+}
+
+
+/*RAISEAUX SOCIAUX*/
+footer ul{
+  text-align: center;
+}
+
+footer li{
+  display: inline-block;
+  padding:10px;
+}
+
+footer li i{
+  color:white;
+}
+
+
+/*MENTION LEGAL*/
+footer nav{
+  text-align: center;
+}
+
+footer nav a {
+  color:white;
+  margin: 0 20px 20px 20px;
+  font-size: 20px;
+}
+
+
+
+/*==========================================================
+                       INDEX
+==========================================================*/
+
+.video_introduction_text_1 h3{
+  text-align: center;
+}
+
+
+.video_introduction{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+
+video {
+  display:block;
+  width:100%;
+  background: #414141;
+  margin:40px auto;
+  box-shadow: 5px 5px 5px 2px rgba(50, 50, 50, 0.5);
+}
+
+.candidatures_titre{
+  text-align: center;
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.Information_introduction{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+
+.Information_introduction a {
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  border:3px;
+  border-radius:10px;
+  background-color: #ff167a;
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+  padding:17px 25px;
+}
+
+.Information_introduction article{
+  height:750px;
+  margin-bottom: 50px;
+  position:relative;
+}
+
+.Je_candidate :nth-child(4){
+  position:absolute;
+  bottom:0;
+}
+
+.Je_m_informe :nth-child(4){
+  position:absolute;
+  bottom:0;
+}
+
+.inscriptions{
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.etapes_candidatures{
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+
+
+/*==========================================================
+                   General priority max
+==========================================================*/
+
+
+#page_selected{
+
+  color: #ff167a;
+  animation:none;
+
+}
+
+#backgound_simplon{
+  background-color: #dadada;
+  background-position: center;
+}

@@ -1,0 +1,165 @@
+@media only screen and (min-width: 350px) {
+.Information_introduction article{
+  height:520px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 520px) {
+.Information_introduction article{
+  height:430px;
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (min-width: 750px) {
+
+/*font sizes*/
+
+ body{
+  font-size: 18px;
+ }
+
+ h3{
+  font-size: 45px;
+  font-weight: bold;
+ }
+
+ h4{
+  font-size: 22px;
+ }
+
+
+ h5{
+  font-size: 20px;
+ }
+
+/*HEADER*/
+  #header{
+    text-align: none;
+    height:75px;
+  }
+
+ .logos-150px{
+   margin:15px 40px 0;
+   display:inline-block;
+ }
+  .logos-300px{
+    margin:0;
+    display:none;
+  }
+
+  .navbar{
+    margin-right: 20px;
+    position:absolute;
+    right:0;
+  }
+
+
+/*CORPS DE TEXTE*/
+
+  #background_simplon{
+    width:750px;
+    margin:0 auto;
+  }
+
+  .Je_m_informe{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_candidate{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_m_informe button{
+    bottom:0;
+  }
+
+  .Je_candidate button{
+    bottom:0;
+  }
+
+
+  .etapes_candidatures{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .etape_1{
+    width:45%;
+    margin:0 2.5%;
+  }
+
+  .etape_2{
+    width:45%;
+    margin:0 2.5%;
+  }
+
+
+/*FOOTER*/
+
+
+  .container_bottom{
+    display:flex;
+    flex-wrap: wrap;
+    width:850px;
+    margin:auto;
+  }
+
+  #logos_bottom {
+    margin:auto;
+  }
+
+  .reseaux_sociaux{
+    border-left: 3px solid white;
+  }
+
+/*Accueil*/
+
+  .Information_introduction article{
+    height:450px;
+  }
+
+}
+
+
+@media only screen and (min-width:1080px) {
+
+
+  #background_simplon{
+    width:1050px;
+    margin:0 auto;
+  }
+
+  .Je_m_informe{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_candidate{
+    width:45%;
+    margin:0 2.5%;
+    top:0;
+  }
+
+  .Je_m_informe button{
+    bottom:0;
+  }
+
+  .Je_candidate button{
+    bottom:0;
+  }
+
+  video {
+    height:557px;
+  }
+
+  .Information_introduction article{
+    height:380px;
+    margin-bottom: 60px;
+  }
+}
