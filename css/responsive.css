@@ -100,6 +100,16 @@
     margin:0 2.5%;
   }
 
+  /**************************************
+                  CONTACT
+  **************************************/
+
+  .google_map #gmap_canvas{
+    margin: auto;
+    width:600px;
+  }
+
+
 
 /*FOOTER*/
 
@@ -123,15 +133,10 @@
 
   .Information_introduction article{
     height:450px;
+    border:none;
   }
 
 }
-
-
-
-/**************************************
-                CONTACT
-**************************************/
 
 
 
@@ -174,4 +179,20 @@
     height:380px;
     margin-bottom: 60px;
   }
+
+
+  /****************************
+            CONTACT
+  ****************************/
+
+
+  .profil_contact{
+    width:40%;
+    font-size: 20px;
+  }
+
+  .formulaire_contact{
+    width:40%;
+  }
+
 }
