@@ -195,4 +195,58 @@
     width:40%;
   }
 
+  /****************************
+            ADEP
+  ****************************/
+
+  .Introduction_ADEP:nth-child(1+2){
+
+    width:45%;
+    padding:20px;
+
+  }
+
+
+  .Introduction_ADEP{
+    display:flex;
+    flex-wrap: wrap;
+    padding:0 20px;
+    margin-bottom: 60px;
+  }
+
+  .Introduction_ADEP p{
+    width:45%;
+    margin: 0 2.5%;
+  }
+
+  .Introduction_ADEP figure{
+    width:45%;
+    margin: 0 2.5%;
+  }
+
+  .Mid_ADEP{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Mid_ADEP article{
+    width:50%;
+    margin: auto;
+  }
+
+  .Mid_ADEP article p{
+    margin-bottom: 80px;
+  }
+
+
+  .Media_Lab{
+    text-align: center;
+    padding:45px;
+    width:37%;
+  }
+
+  .Media_Lab figure{
+    margin:15px auto 70px;
+  }
+
 }
