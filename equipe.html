@@ -23,16 +23,27 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
 
+        <script language="javascript">
+
+        var menue_anime = document.getElementBy("")
+
+        function tailledelapolice(){
+            if ()
+            document.getElementById("taille_police").style.fontSize = "180px";
+
+        }
+
+        tailledelapolice();
+        </script>
+
 
     </head>
+
+
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-
-
-
 
 
 <!--=====================================
@@ -53,13 +64,13 @@
         <nav class="navbar">
             <ul>
                 <li>
-                    <a href="contact.html" id="page_selected">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li>
                     <a href="adep.html" >ADEP</a>
                 </li>
                 <li>
-                    <a href="equipe.html">Equipe</a>
+                    <a href="equipe.html" id="page_selected">Equipe</a>
                 </li>
                 <li>
                     <a href="cursus.html">Cursus</a>
@@ -84,89 +95,10 @@
 
 
 
-    <section id="background_simplon">
+    <main id="background_simplon">
 
 
 
-            <h3 class="contact_titre">Contactez-Nous</h3>
-
-
-
-        <section class="container_contact">
-
-            <article class="profil_contact">
-                <figure>
-                    <img src="img/portrait/portrait.png" width="300px" alt="portrait de Mazingue">
-                </figure>
-
-                <p>
-                    Mathieu Mazingue <br>
-
-                    Mathieu.mazingue@gmail.com <br>
-
-                    06.31.62.88.05
-                </p>
-
-            </article>
-
-        <form class="formulaire_contact" action="contact.html" method="post">
-            <i class="fa fa-user bigicon"></i><br>
-            <input type="text" name="lastname" placeholder="NOM"><br>
-            <i class="fa fa-user bigicon"></i><br>
-            <input type="text" name="firstname" placeholder="PRENOM"><br>
-            <i class="fa fa-envelope-o bigicon"></i><br>
-            <input type="text" name="firstname" placeholder="EMAIL"><br>
-            <i class="fa fa-phone-square bigicon"></i><br>
-            <input type="text" name="firstname" placeholder="TELEPHONE"><br>
-            <i class="fa fa-pencil-square-o bigicon"></i><br>
-            <textarea name="" id="" cols="30" rows="5" name="message" placeholder="Veuillez nous laisser votre message, nous vous répondrons dans les plus brefs délais."></textarea><br>
-            <button type="submit" class="button-formulaire">Je m'inscris</button>
-        </form>
-
-
-        </section>
-
-
-        <div class="ligne_de_separation">
-
-            <div class="carre_orange"></div>
-
-            <div class="carre_vert"></div>
-
-        </div>
-
-
-        <aside class="google_map">
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-            <div id="gmap_canvas" style="height:400px;width:500px;"></div>
-            <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-            <script type="text/javascript">
-                function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(50.67333347145965,3.191775115344191),mapTypeId: google.maps.MapTypeId.ROADMAP};
-                map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-                    marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.67333347145965,3.191775115344191)});
-                    infowindow = new google.maps.InfoWindow({content:'<strong>Simplon-ROUBAIX </strong><br>92 Rue Leon MARLOT, ROUBAIX, France<br>'});
-                    google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
-                    infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-            </script>
-            <article>
-                <p>
-                Simplon Roubaix <br>
-
-                92, rue leon marlot <br>
-
-                59100 Roubaix <br>
-
-                tel: 03 20 02 79 68 <br>
-
-                ouvert du lundi au vendredi <br>
-
-                de 9h-12H 13h15-17h00 <br>
-
-                </p>
-            </article>
-
-
-        </aside>
 
 
                 <!-- ligne de séparation -->
@@ -178,7 +110,7 @@
 
         </div>
 
-    </section>
+    </main>
 
 
 
@@ -219,16 +151,16 @@
                 </figure>
                 <ul>
                     <li>
-                        <a href=""><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </figure>
@@ -252,6 +184,7 @@
         </section>
 
     </footer>
+
 
 
 
