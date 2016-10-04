@@ -15,6 +15,11 @@
 
 /*font sizes*/
 
+.Introduction_ADEP p a{
+  font-size: 18px;
+}
+
+
  body{
   font-size: 18px;
  }
@@ -139,6 +144,9 @@
 }
 
 
+/**************************************
+                ADEP
+**************************************/
 
 
 
@@ -195,6 +203,10 @@
     width:40%;
   }
 
+  .google_map article{
+    width:40%;
+  }
+
   /****************************
             ADEP
   ****************************/
@@ -238,11 +250,15 @@
     margin-bottom: 80px;
   }
 
+  .Mid_ADEP div {
+    text-align: center;
+  }
 
   .Media_Lab{
     text-align: center;
-    padding:45px;
-    width:37%;
+    padding:35px;
+    width:30%;
+    font-size: 20px;
   }
 
   .Media_Lab figure{
