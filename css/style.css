@@ -1,4 +1,6 @@
 
+
+
 /*==========================================================
                        GENERAL
 ==========================================================*/
@@ -66,10 +68,10 @@ a {
 
 #background_simplon{
   width:100%;
-  margin:auto auto 150px;
-  padding:150px 0 0;
+  margin:0 auto 150px;
   background-image: url(../img/background/Untitled.png);
   background-position: center;
+  padding-top: 110px;
 }
 
 
@@ -106,42 +108,11 @@ a {
   display:block;
 }
 
-.slider{
-  width:100%;
-}
-
-.image_1_slide{
-  opacity: 0;
-}
-
-.image_2_slide{
-  opacity: 0;
-}
-
-.slide_actif{
-  opacity: 1;
-}
 
 
-/*CARROUSSEL LE RETOUR DE LA VEANGEANCE*/
-
-.carroussel{
-  background-color: red;
-  position:relative;
-  width:100%;
-  height:750px;
-  margin:0 auto;
-}
-
-.image_slide{
-  position:absolute;
-  width:100%;
-  top:0;
-  left:0;
-}
 
 /*******************************
-NAVBAR
+            NAVBAR
 *******************************/
 
 .navbar{
@@ -188,6 +159,18 @@ header li{
           color: #ff167a;
         }
 }
+
+
+
+.image_introduction{
+  width:100%;
+  height:auto;
+  margin-top: 90px;
+  margin-bottom: -150px;
+}
+
+
+
 
 /*==========================================================
                        FOOTER
@@ -467,10 +450,15 @@ video {
   margin-bottom: 20px;
 }
 
+.profil_contact img{
+  border-radius: 800px;
+}
+
+
 .formulaire_contact{
   padding:20px;
   width:90%;
-  margin: auto;
+  margin:0 auto;
   margin-bottom: 20px;
 }
 
