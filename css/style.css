@@ -1,4 +1,6 @@
 
+
+
 /*==========================================================
                        GENERAL
 ==========================================================*/
@@ -66,10 +68,10 @@ a {
 
 #background_simplon{
   width:100%;
-  margin:auto auto 150px;
-  padding:150px 0 0;
+  margin:0 auto 150px;
   background-image: url(../img/background/Untitled.png);
   background-position: center;
+  padding-top: 110px;
 }
 
 
@@ -107,8 +109,10 @@ a {
 }
 
 
+
+
 /*******************************
-NAVBAR
+            NAVBAR
 *******************************/
 
 .navbar{
@@ -155,6 +159,18 @@ header li{
           color: #ff167a;
         }
 }
+
+
+
+.image_introduction{
+  width:100%;
+  height:auto;
+  margin-top: 90px;
+  margin-bottom: -150px;
+}
+
+
+
 
 /*==========================================================
                        FOOTER
@@ -434,10 +450,15 @@ video {
   margin-bottom: 20px;
 }
 
+.profil_contact img{
+  border-radius: 800px;
+}
+
+
 .formulaire_contact{
   padding:20px;
   width:90%;
-  margin: auto;
+  margin:0 auto;
   margin-bottom: 20px;
 }
 
