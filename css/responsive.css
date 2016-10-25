@@ -153,6 +153,12 @@
 
 @media only screen and (min-width:1280px) {
 
+  #tableau_cursus h5{
+    color:#ff167a;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+  }
 
   #background_simplon{
     width:1050px;
