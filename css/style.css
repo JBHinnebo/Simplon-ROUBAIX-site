@@ -128,6 +128,7 @@ header li{
   margin-right: 30px;
 }
 
+
 .navbar a {
   color:#333;
   font-size: 25px;
@@ -135,6 +136,8 @@ header li{
   animation-duration: 0.3s;
   border:none;
 }
+
+
 @keyframes couleur_simplon_decroissante{
   from {
           color: #ff167a;
@@ -150,6 +153,8 @@ header li{
   animation-name: couleur_simplon_rose;
   animation-duration: 0.3s;
 }
+
+
 @keyframes couleur_simplon_rose{
   from {
           color: #000;
@@ -173,7 +178,7 @@ header li{
 
 
 /*==========================================================
-                       FOOTER
+                         FOOTER
 ==========================================================*/
 
 #footer{
@@ -238,7 +243,7 @@ footer nav a {
 
 
 /*==========================================================
-                       INDEX
+                         INDEX
 ==========================================================*/
 
 
@@ -328,6 +333,17 @@ video {
 }
 
 
+.press_article{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.press_article img {
+  width:45%;
+  height: auto;
+}
+
+
 
 
 
@@ -373,10 +389,6 @@ video {
   padding:0 30px;
 }
 
-.Mid_ADEP article p button{
-
-}
-
 .Mid_ADEP article p:first-line{
   font-weight: bold;
   font-size: 20px;
@@ -412,6 +424,31 @@ video {
 
 
 /*==========================================================
+                       PAGE EQUIPE
+==========================================================*/
+
+
+.personnels {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width:80%;
+}
+
+.personnels figure{
+  width:25%;
+  margin: auto;
+}
+
+.articles_personnels{
+  width:65%;
+  margin: auto;
+}
+
+
+
+
+/*==========================================================
                        PAGE CONTACT
 ==========================================================*/
 
@@ -437,7 +474,7 @@ video {
   margin:20px auto 40px;
 }
 
-.container_contact {
+.container_contact{
   margin: auto;
 }
 
@@ -523,6 +560,49 @@ button {
 
 .formulaire_contact div{
   text-align: center;
+}
+
+/*==========================================================
+                       PAGE CURSUS
+==========================================================*/
+
+#tableau_cursus{
+  margin-top: 70px;
+}
+
+
+#tableau_cursus div{
+  margin:30px 5% 20px;
+  background-color: white;
+  box-shadow: 0 5px 10px -5px rgba(50, 50, 50, 0.5);
+  padding: 1px 30px 5px;
+}
+
+#tableau_cursus div:hover{
+  outline: 5px solid rgba(50, 50, 50, 0.6);
+}
+
+.icons_tableau{
+  color:#333;
+  width:30%;
+  margin:auto;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px solid #ff167a;
+}
+
+#tableau_cursus h5{
+  color:#ff167a;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.active{
+    background-color: #ff167a;
+    color:#fff;
+    border-radius: 5px solid #ff167a;
 }
 
 
