@@ -62,6 +62,9 @@
             <img src="img/Logo-Roubaix-gray-300px.png" alt="Simplon-ROUBAIX logos">
         </figure>
 
+        <button class=toggleButton>
+
+        </button>
 
         <nav class="navbar">
             <ul>
@@ -389,11 +392,6 @@
                 </article>
 
             </section>
-<style>
-
-
-
-</style>
 
                 <!-- ligne de séparation -->
         <div class="ligne_de_separation">
@@ -489,6 +487,9 @@
 
         <script>
 
+
+
+
             $('#tableau_cursus :nth-child(2)').hide();
 
             $('#tableau_cursus :nth-child(3)').hide();
@@ -498,7 +499,7 @@
 
 
 
-                $('button').on('click',function(){
+                $('.icons_tableau').on('click',function(){
                     var article = $(this).attr('data-articleclass');
                     var articleNonUse = $(this).siblings().attr('data-articleclass');
 
