@@ -1,24 +1,45 @@
 @media only screen and (min-width: 350px) {
-.Information_introduction article{
-  height:670px;
-  margin-bottom: 40px;
+  .Information_introduction article{
+    height:670px;
+    margin-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 520px) {
-.Information_introduction article{
-  height:490px;
-  margin-bottom: 40px;
+  .Information_introduction article{
+    height:490px;
+    margin-bottom: 40px;
+  }
+
 }
-
-
 @media only screen and (min-width: 750px) {
 
 /*font sizes*/
+#header{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.navbar li{
+  width:auto;
+  text-align: none;
+}
+
+.navbar .icon{
+  display:none;
+}
+
+.navbar li a{
+    font-size: 25px;
+}
 
 .Introduction_ADEP p a{
   font-size: 18px;
 }
-
+/*THIS IS THE NAVBAR ORIGINAL STATE WITHOUT THE CODE. WITH THE MEDIA QUERYS*/
+.Nav-apparition{
+  display:block;
+}
 
  body{
   font-size: 18px;
@@ -106,6 +127,17 @@
   }
 
   /**************************************
+                  CURSUS
+  **************************************/
+
+  .icons_tableau{
+    font-size: 30px;
+    width:30%;
+    margin: 20px auto 0;
+  }
+
+
+  /**************************************
                   CONTACT
   **************************************/
 
@@ -153,6 +185,12 @@
 
 @media only screen and (min-width:1280px) {
 
+  #tableau_cursus h5{
+    color:#ff167a;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+  }
 
   #background_simplon{
     width:1050px;

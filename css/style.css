@@ -38,6 +38,11 @@ a {
   text-decoration: none;
 }
 
+
+.image_introduction{
+
+}
+
 /*bar de séparation*/
 
 .ligne_de_separation{
@@ -68,16 +73,18 @@ a {
 
 #background_simplon{
   width:100%;
-  margin:0 auto 150px;
+  margin:0px auto 150px;
   background-image: url(../img/background/Untitled.png);
-  background-position: center;
+  background-position:top center;
   padding-top: 110px;
 }
 
-
+.margin_title{
+  margin-top: 100px;
+}
 
 /*==========================================================
-                       HEADER
+                        HEADER
 ==========================================================*/
 
 
@@ -92,8 +99,6 @@ a {
   z-index: 100;
   top:0;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .logos-150px{
@@ -117,9 +122,30 @@ a {
 
 .navbar{
   display:block;
-  margin:auto;
+  margin:10px 0 0;
 }
 
+
+.navbar .icon{
+  margin: 0 2.5% auto auto;
+}
+
+.navbar li{
+  width:100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.navbar li a{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+/*THIS IS THE NAVBAR ORIGINAL STATE WITHOUT THE CODE. AND THE MEDIA QUERYS*/
+.Nav-apparition{
+  display:none;
+}
 
 
 header li{
@@ -128,6 +154,7 @@ header li{
   margin-right: 30px;
 }
 
+
 .navbar a {
   color:#333;
   font-size: 25px;
@@ -135,6 +162,8 @@ header li{
   animation-duration: 0.3s;
   border:none;
 }
+
+
 @keyframes couleur_simplon_decroissante{
   from {
           color: #ff167a;
@@ -150,6 +179,8 @@ header li{
   animation-name: couleur_simplon_rose;
   animation-duration: 0.3s;
 }
+
+
 @keyframes couleur_simplon_rose{
   from {
           color: #000;
@@ -173,7 +204,7 @@ header li{
 
 
 /*==========================================================
-                       FOOTER
+                         FOOTER
 ==========================================================*/
 
 #footer{
@@ -238,8 +269,12 @@ footer nav a {
 
 
 /*==========================================================
-                       INDEX
+                         INDEX
 ==========================================================*/
+
+
+
+
 
 
 .video_introduction_text_1 p::first-line{
@@ -328,6 +363,17 @@ video {
 }
 
 
+.press_article{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.press_article img {
+  width:45%;
+  height: auto;
+}
+
+
 
 
 
@@ -373,10 +419,6 @@ video {
   padding:0 30px;
 }
 
-.Mid_ADEP article p button{
-
-}
-
 .Mid_ADEP article p:first-line{
   font-weight: bold;
   font-size: 20px;
@@ -412,6 +454,31 @@ video {
 
 
 /*==========================================================
+                       PAGE EQUIPE
+==========================================================*/
+
+
+.personnels {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto 100px;
+  width:80%;
+}
+
+.personnels figure{
+  width:100%;
+  margin: auto;
+}
+
+.articles_personnels{
+  width:100%;
+  margin: auto;
+}
+
+
+
+
+/*==========================================================
                        PAGE CONTACT
 ==========================================================*/
 
@@ -437,7 +504,7 @@ video {
   margin:20px auto 40px;
 }
 
-.container_contact {
+.container_contact{
   margin: auto;
 }
 
@@ -525,6 +592,54 @@ button {
   text-align: center;
 }
 
+/*==========================================================
+                       PAGE CURSUS
+==========================================================*/
+
+.tableau_icons{
+  margin:auto;
+  text-align: center;
+}
+
+#tableau_cursus{
+  margin-top: 100px;
+}
+
+
+#tableau_cursus div{
+  margin:30px 5% 20px;
+  background-color: white;
+  box-shadow: 0 5px 10px -5px rgba(50, 50, 50, 0.5);
+  padding: 1px 30px 5px;
+}
+
+#tableau_cursus div:hover{
+  outline: 4px solid rgba(50, 50, 50, 0.4);
+}
+
+.icons_tableau{
+  color:#333;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 3px solid #ff167a;
+  width:70%;
+  margin: 20px auto 0;
+}
+
+#tableau_cursus h5{
+  color:#ff167a;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.active{
+    background-color: #ff167a;
+    color:#fff;
+    border-radius: 5px solid #ff167a;
+}
+
 
 /*==========================================================
                    General priority max
@@ -548,4 +663,13 @@ button {
 
 .selected{
   background-color:black;
+}
+
+
+.navbar button{
+  background: none;
+  box-shadow: none;
+  width: auto;
+  margin: auto;
+  text-align: center;
 }

@@ -64,12 +64,17 @@
 
 
         <nav class="navbar">
-            <ul>
+
+            <button class="icon">
+                <a href="javascript:void(0);" style="font-size:30px;">☰</a>
+            </button>
+
+            <ul class="Nav-apparition">
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="adep.html" >ADEP</a>
+                    <a href="adep.html">ADEP</a>
                 </li>
                 <li>
                     <a href="equipe.html">Equipe</a>
@@ -78,9 +83,8 @@
                     <a href="cursus.html" id="page_selected">Cursus</a>
                 </li>
                 <li>
-                    <a href="index.html">Accueil</a>
+                    <a href="index.html" >Accueil</a>
                 </li>
-
             </ul>
         </nav>
 
@@ -101,7 +105,294 @@
 
 
 
-        <h3>CURSUS</h3>
+        <h3 class=margin_title>CURSUS</h3>
+
+
+
+                <section class=tableau_icons>
+                    <button class="icons_tableau active" data-articleclass=Article_1>
+                        <h4>Tronc Commun</h4>
+                    </button>
+
+                    <button class="icons_tableau" data-articleclass=Article_2>
+                        <h4>Developer Web</h4>
+                    </button>
+
+                    <button class="icons_tableau" data-articleclass=Article_3>
+                        <h4>Charger de projet</h4>
+                    </button>
+                </section>
+
+            <section id=tableau_cursus>
+
+                <article class="Article_1">
+
+                    <div>
+                    <h5> Introduction </h5>
+
+                    <p>
+                    L’introduction générale a deux buts. D’une part présenter l’environnement Simplon
+                    (partenaires, ESS, locaux, organisation...), d’autre part de présenter la philosophie
+                    “Simplon” et les concepts qui font sa pédagogie: l’apprentissage par la pratique, apprendre
+                    à apprendre, la programmation en binôme et l’apprentissage par l’enseignement.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Debian: système d'exploitation libre </h5>
+
+                    <p>
+                    Maîtrise de l’environnement de travail avec le système d’exploitation open source Ubuntu et
+                    découverte des grands principes des systèmes Unix, qui est aujourd’hui très présent dans le
+                    milieu professionnel, grâce à sa grande stabilité, son niveau de sécurité élevé et le respect
+                    des grands standards, notamment en matière de réseau. Découverte des outils (terminal,
+                    ligne de commande, éditeur de texte), des commandes de base.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Gestion de projet, méthodes agiles et organisation personnelle </h5>
+
+                    <ol>
+                        <li>
+                            <p>S'initier aux méthodes agiles (Scrum, Kanban) </p>
+                        </li>
+                        <li>
+                            <p>Planifier le travail  </p>
+                        </li>
+                        <li>
+                            <p>Optimiser sa productivité (technique Pomodoro) </p>
+                        </li>
+                        <li>
+                            <p>Gérer un projet de manière efficiente </p>
+                        </li>
+                        <li>
+                            <p>S'organiser personnellement, en groupe </p>
+                        </li>
+                        <li>
+                            <p>Maîtriser les outils utiles (Trello, Basecamp) </p>
+                        </li>
+                    </ol>
+                    </div>
+                    <div>
+                    <h5> HTML et CSS: créer l'aspect visuel d'un site  </h5>
+
+                    <p>
+                    Apprentissage de la couche “présentation" du Web à travers les langages HTML et CSS.
+                    Cet apprentissage se fera à travers une mise en application de multiples projets de création
+                    de sites Web statiques en HTML5 et CSS3 “pur”.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Twitter Bootstrap: framework CSS   </h5>
+
+                    <p>
+                    Apprentissage de la couche “présentation" du Web à travers les langages HTML et CSS.
+                    Cet apprentissage se fera à travers une mise en application de multiples projets de création
+                    de sites Web statiques en HTML5 et CSS3 “pur”.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Git et Github Pages: versionner son code    </h5>
+
+                    <p>
+                    La maîtrise de Git et la compréhension du concept de “versioning” de code source est un
+                    pré­requis indispensable pour le travail dans une équipe de développement. Ce module
+                    explique les différents concepts afférents (versions, branches, synchronisation, etc.) avec
+                    une mise en pratique utilisant la plateforme GitHub.
+                    </p>
+                    </div>
+                    <div>
+                    <h5>JavaScript : ajouter de l'interaction à son site </h5>
+
+                    <p>
+                    Découverte des grandes bases de la programmation impérative avec JavaScript puis
+                    application au Web au travers de projets de mini­jeux ainsi que pour la dynamisation
+                    d’interface.
+                    </p>
+                    </div>
+                    <div>
+                    <h5>Canvas et jQuery : JavaScript avancé</h5>
+
+                    <p>
+                    L’utilisation de frameworks JavaScript permet le développement d’applications   front­end
+                    avancées et la création d’interactions poussées au niveau utilisateur. La mise en pratique
+                    dans des projets de l’objet “Canvas” augmente les possibilités en terme d’animation et de
+                    création de petits jeux. L’utilisation des fonctionnalités XHR via jQuery. Ajax donne la
+                    dernière brique pour la création d'applications Web dynamiques et modernes dans le
+                    navigateur.
+                    </p>
+                    </div>
+                    <div>
+                    <h5>Introduction aux objets connectés et impression 3D (optionnel)</h5>
+
+                    <p>
+                    Découverte des objets connectés au travers de projets concrets sur Arduino et utilisant
+                    différents capteurs / composants. Initiation à l’impression 3D et à la modélisation en utilisant
+                    OpenScad pour réaliser un petit objet à imprimer.
+                    </p>
+
+                </article>
+
+                <article class="Article_2">
+
+                    <div>
+                    <h5> AngularJS : augmenter son efficacité avec JavaScript </h5>
+
+                    <p>
+                    AngularJS est un framework JavaScript qui étend le HTML pour le rendre dynamique, et
+                    permet de développer ses propres balises et attributs HTML. Ce framework, extensible,
+                    pousse vers un développement structuré, en couches. Différents concepts seront abordés
+                    tels que MVC (Modèle­Vue­Contrôleur), le data­binding bidirectionnel, l’injection de
+                    dépendances, le routing et les tests.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Programmation avancée (Ruby / PHP / Python)  </h5>
+                    </div>
+                    <div>
+                    <p>
+                    Il est temps d'apprendre à maîtriser un langage orienté objet, qui s'exécute côté serveur, et
+                    permet notamment de communiquer avec une base de données, et de s'initier aux outils
+                    utiles dans la phase de développement. C'est ce langage qui permettra de concevoir ensuite
+                    un site Web dynamique ou une application Web complète.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Développement d’un site / d'une application Web (Rails / Symfony / Django) </h5>
+
+                    <p>
+                    Lorsqu'on développe un site ou une application Web, on se sert généralement d'un
+                    framework qui offre de nombreux outils et composants logiciels pour faciliter le
+                    développement. Les frameworks sont conçus et utilisés pour modeler l'architecture d'un site
+                    ou d'une application Web.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Conception et administration d'une base de données SQL  </h5>
+
+                    <p>
+                    Concevoir, mettre en oeuvre et utiliser les bases de données relationnelles, en particulier
+                    savoir définir un schéma relationnel à partir d'une modélisation conceptuelle des données et
+                    maîtriser le langage SQL.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Initiation au NoSQL (optionnel) </h5>
+
+                    <p>
+                    Ce module concerne principalement le langage Python, ce dernier étant très utilisé pour les
+                    Big Data des bases de données de type NoSQL (ex:   mongoDB). Il s’agit de voir comment
+                    maintenir et superviser un base de données NoSQL, sachant que les moteurs NoSQL, en
+                    stockant des données moins structurées, peuvent utiliser de la distribution sur plusieurs
+                    serveurs.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Déploiement d'un site / d'une application Web </h5>
+
+                    <p>
+                    Après avoir conçu un site ou une application Web, il faut l'héberger sur un serveur pour
+                    pouvoir le/la rendre publique et utilisable. Ce module a donc pour but d'apprendre à
+                    maîtriser les outils nécessaires pour configurer et administrer un serveur, et mettre en
+                    production un site ou une application Web.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Sécurité appliquée à la programmation </h5>
+
+                    <p>
+                    Il s’agit ici d’aborder les failles permettant l’injection de code. Cette partie sera
+                    principalement basée sur deux exemples : les injections SQL basiques et avancées, ainsi
+                    que les failles XSS (appelée Cross­Site Scripting) avec les injections de code HTML ou
+                    JavaScript.
+                    </p>
+
+                </article>
+
+                <article class="Article_3">
+
+                    <div>
+                    <h5> Wordpress </h5>
+
+                    <p>
+                    WordPress donne la possibilité de concevoir, à bas coût mais avec une finalité
+                    professionnelle, un site vitrine, un e­commerce, un blog... et de les gérer. En plus d’être
+                    gratuit, libre et très simple d’utilisation, il est considéré comme le meilleur CMS (content
+                    management system). Intégrant une technologie responsive, de nombreux thèmes, et
+                    extensions sont disponibles, il est également possible de personnaliser le modèle.
+                    De plus, étant très répandu, la documentation support / d’aide de ce CMS est très facilement
+                    accessible.
+                    Une meilleure prise en main de Wordpress est possible avec l’utilisation de balises et des
+                    extensions SEO.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> PHP / MySQL orienté WordPress   </h5>
+
+                    <p>
+                    Une connaissance basique du langage PHP et du moteur de base de données relationnelles
+                    SQL permettront une meilleure prise en main des CMS, tel que WordPress, ainsi que de
+                    créer des extensions et des plugins pour WordPress.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> WordPress : projet  </h5>
+
+                    <p>
+                    Mise en application directe dans un projet concret de toutes les connaissances acquises
+                    précédemment. Le projet WordPress se déroulera en d'équipe et s’étalera sur une semaine.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> E­Commerce </h5>
+
+                    <p>
+                    Création et gestion d'un site e­commerce avec WooCommerce, une extension pour
+                    WordPress permettant de créer une boutique en ligne. WooCommerce permet de gérer tous
+                    les aspects d’un site de e­commerce tels que la gestion des produits, la configuration des
+                    modes de paiement et des livraisons, et le suivi des commandes des clients.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Outils d’automatisation </h5>
+
+                    <p>
+                    Certaines tâches peuvent être automatisées. Il peut être utile de mettre en place toute une
+                    série de règles (un workflow) pour gagner du temps et être plus efficace en connectant
+                    plusieurs services en ligne entre eux pour créer des tâches et de la valeur.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Wireframing   </h5>
+
+                    <p>
+                    Le wireframe est une maquette fonctionnelle / un schéma utilisé lors de la conception d'une
+                    interface pour définir les zones et composants qu'elle doit contenir. La démarche de recourir
+                    à des wireframes s'inscrit dans une recherche d'ergonomie. Elle est surtout utilisée dans le
+                    cadre du développement logiciel et des sites et applications Web.
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Formation en sécurité </h5>
+
+                    <p>
+                    L’objectif de ce module est de former les apprenant.e.s à initier d'autres personnes aux
+                    problématiques de sécurité informatique et personnelle telles que: mot de passe sécurisé,
+                    fonctionnement d’Internet, prendre conscience du traquage et pouvoir le limiter,
+                    fonctionnement de la publicité ciblée, du cloud, de l'univers du Big Data...
+                    </p>
+                    </div>
+                    <div>
+                    <h5> Projet final </h5>
+
+                    <p>
+                    Mise en application directe dans un projet concret de toutes les connaissances acquises au
+                    cours de la formation. Le projet final est un travail d'équipe d'une durée de deux semaines
+                    qui contient potentiellement plusieurs sous­projets.
+                    </p>
+                    </div>
+                </article>
+
+            </section>
 
                 <!-- ligne de séparation -->
         <div class="ligne_de_separation">
@@ -194,6 +485,44 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+
+
+
+
+            $('#tableau_cursus :nth-child(2)').hide();
+
+            $('#tableau_cursus :nth-child(3)').hide();
+
+            $(document).ready(function(){
+
+
+
+
+                $('.icons_tableau').on('click',function(){
+                    var article = $(this).attr('data-articleclass');
+                    var articleNonUse = $(this).siblings().attr('data-articleclass');
+
+                    // ajout de la classe
+                    $(this).addClass('active');
+                    $(this).siblings().removeClass('active');
+
+
+                    $('#tableau_cursus').children().hide(0);
+                    $('.'+ article).show(0);
+                })
+
+
+                $('div').on('click', function(){
+                    $(this).find('p').toggle(100);
+                })
+
+
+            });
+
+        </script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
