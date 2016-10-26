@@ -92,8 +92,6 @@ a {
   z-index: 100;
   top:0;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .logos-150px{
@@ -119,6 +117,18 @@ a {
   display:block;
   margin:auto;
 }
+
+.navbar li{
+  width:100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.navbar li a{
+    font-size: 34px;
+}
+
+
 
 
 
@@ -631,4 +641,12 @@ button {
 
 .selected{
   background-color:black;
+}
+
+
+.navbar button{
+  background: none;
+  box-shadow: none;
+  width: auto;
+  margin: auto;
 }
