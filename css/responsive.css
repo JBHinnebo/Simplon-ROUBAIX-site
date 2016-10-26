@@ -36,7 +36,10 @@
 .Introduction_ADEP p a{
   font-size: 18px;
 }
-
+/*THIS IS THE NAVBAR ORIGINAL STATE WITHOUT THE CODE. WITH THE MEDIA QUERYS*/
+.Nav-apparition{
+  display:block;
+}
 
  body{
   font-size: 18px;
@@ -122,6 +125,17 @@
     width:45%;
     margin:0 2.5%;
   }
+
+  /**************************************
+                  CURSUS
+  **************************************/
+
+  .icons_tableau{
+    font-size: 30px;
+    width:30%;
+    margin: 20px auto 0;
+  }
+
 
   /**************************************
                   CONTACT

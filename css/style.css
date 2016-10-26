@@ -38,6 +38,11 @@ a {
   text-decoration: none;
 }
 
+
+.image_introduction{
+
+}
+
 /*bar de séparation*/
 
 .ligne_de_separation{
@@ -68,16 +73,18 @@ a {
 
 #background_simplon{
   width:100%;
-  margin:0 auto 150px;
+  margin:0px auto 150px;
   background-image: url(../img/background/Untitled.png);
   background-position:top center;
   padding-top: 110px;
 }
 
-
+.margin_title{
+  margin-top: 100px;
+}
 
 /*==========================================================
-                       HEADER
+                        HEADER
 ==========================================================*/
 
 
@@ -115,7 +122,12 @@ a {
 
 .navbar{
   display:block;
-  margin:auto;
+  margin:10px 0 0;
+}
+
+
+.navbar .icon{
+  margin: 0 2.5% auto auto;
 }
 
 .navbar li{
@@ -125,11 +137,15 @@ a {
 }
 
 .navbar li a{
+    font-weight: bold;
     font-size: 34px;
 }
 
 
-
+/*THIS IS THE NAVBAR ORIGINAL STATE WITHOUT THE CODE. AND THE MEDIA QUERYS*/
+.Nav-apparition{
+  display:none;
+}
 
 
 header li{
@@ -255,6 +271,10 @@ footer nav a {
 /*==========================================================
                          INDEX
 ==========================================================*/
+
+
+
+
 
 
 .video_introduction_text_1 p::first-line{
@@ -441,17 +461,17 @@ video {
 .personnels {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px auto;
+  margin: 50px auto 100px;
   width:80%;
 }
 
 .personnels figure{
-  width:25%;
+  width:100%;
   margin: auto;
 }
 
 .articles_personnels{
-  width:65%;
+  width:100%;
   margin: auto;
 }
 
@@ -603,6 +623,8 @@ button {
   font-weight: bold;
   background-color: white;
   border-radius: 3px solid #ff167a;
+  width:70%;
+  margin: 20px auto 0;
 }
 
 #tableau_cursus h5{
@@ -649,4 +671,5 @@ button {
   box-shadow: none;
   width: auto;
   margin: auto;
+  text-align: center;
 }
