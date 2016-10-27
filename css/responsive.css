@@ -173,17 +173,24 @@
     border:none;
   }
 
-}
-
 
 /**************************************
-                ADEP
+                EQUIPE
 **************************************/
 
 
 
+  .articles_personnels{
+    width:47%;
+    margin:auto 1.5%;
+    text-align: left;
+  }
+
+}
 
 @media only screen and (min-width:1280px) {
+
+
 
   #tableau_cursus h5{
     color:#ff167a;
