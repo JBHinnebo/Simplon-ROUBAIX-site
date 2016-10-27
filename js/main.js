@@ -24,7 +24,7 @@ $(window).resize( function() {
 
 $(document).ready(function(){
 
-      $('body').append('<a href="#top" class="top_link" title="Revenir en haut de page">Haut</a>');
+      $('body').append('<a href="#top" class="top_link" title="Revenir en haut de page">Haut de Page</a>');
 
 			$(window).scroll(function(){
             // Permet de remonter en haut de page.
