@@ -461,18 +461,25 @@ video {
 .personnels {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px auto 100px;
+  margin: 20px auto 50px;
   width:80%;
+  text-align: center;
 }
 
 .personnels figure{
-  width:100%;
+  width:50%;
   margin: auto;
 }
 
 .articles_personnels{
   width:100%;
   margin: auto;
+}
+
+.articles_personnels h4{
+  color: #ff167a;
+  font-size: 30px;
+  margin:20px auto -30px;
 }
 
 
