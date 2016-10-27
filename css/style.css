@@ -680,3 +680,20 @@ button {
   margin: auto;
   text-align: center;
 }
+
+
+
+
+
+/*C'est le bouton return to top*/
+.top_link{
+  position :fixed;
+  right				:	20px;
+  bottom				:	40px;
+  display			:	none;
+  padding			:	10px;
+  background		:	#ff167a;
+  border-radius		:	10px;
+  opacity: 0.9;
+  z-index			:	2000;
+}
