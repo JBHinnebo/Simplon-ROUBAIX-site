@@ -38,6 +38,9 @@ a {
   text-decoration: none;
 }
 
+img{
+  border-radius: 5px;
+}
 
 .image_introduction{
 
@@ -291,7 +294,6 @@ footer nav a {
   padding-right:30px;
 }
 
-
 video {
   display:block;
   width:100%;
@@ -363,14 +365,16 @@ video {
 }
 
 
-.press_article{
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .press_article img {
-  width:45%;
-  height: auto;
+  margin:60px auto auto;;
+}
+
+
+.press_article p{
+  font-weight: bolder;
+  font-size: 21px;
+  margin: 0 20px 0;
 }
 
 
@@ -381,6 +385,11 @@ video {
                        PAGE ADEP
 ==========================================================*/
 
+.image_adep{
+  width:80%;
+  height:80%;
+  margin: 20px 10% 0;
+}
 
 .Introduction_ADEP{
   display:flex;
@@ -645,6 +654,12 @@ button {
     background-color: #ff167a;
     color:#fff;
     border-radius: 5px solid #ff167a;
+}
+
+
+.Article_1 p::first-line{
+  font-size: 19px;
+  font-family: 'Francois One', sans-serif;
 }
 
 

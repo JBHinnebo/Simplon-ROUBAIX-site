@@ -100,6 +100,7 @@
   .Je_candidate{
     width:45%;
     top:0;
+    margin: auto;
   }
 
   .Je_m_informe button{
@@ -126,6 +127,16 @@
     margin:0 2.5%;
   }
 
+  .press_article{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .press_article img {
+    width:45%;
+    height: auto;
+  }
+
   /**************************************
                   CURSUS
   **************************************/
@@ -150,7 +161,6 @@
 
 /*FOOTER*/
 
-
   .container_bottom{
     display:flex;
     flex-wrap: wrap;
@@ -173,12 +183,9 @@
     border:none;
   }
 
-
 /**************************************
                 EQUIPE
 **************************************/
-
-
 
   .articles_personnels{
     width:47%;
@@ -187,6 +194,9 @@
   }
 
 }
+
+
+
 
 @media only screen and (min-width:1280px) {
 
@@ -234,9 +244,9 @@
   }
 
 
-  /****************************
-            CONTACT
-  ****************************/
+  /********************************
+              CONTACT
+  ********************************/
 
 
   .profil_contact{
@@ -252,9 +262,9 @@
     width:40%;
   }
 
-  /****************************
-            ADEP
-  ****************************/
+  /********************************
+                ADEP
+  ********************************/
 
   .Introduction_ADEP:nth-child(1+2){
 
