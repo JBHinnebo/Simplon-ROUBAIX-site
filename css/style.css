@@ -362,14 +362,7 @@ video {
   padding-right:30px;
 }
 
-
-.press_article{
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .press_article img {
-  width:45%;
   height: auto;
 }
 
@@ -381,6 +374,11 @@ video {
                        PAGE ADEP
 ==========================================================*/
 
+.image_adep{
+  width:80%;
+  height:80%;
+  margin: 20px 10% 0;
+}
 
 .Introduction_ADEP{
   display:flex;
